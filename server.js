@@ -26,7 +26,7 @@ app.use('/js', express.static(path.resolve(__dirname, 'assest/js')));
 app.use('/img', express.static(path.resolve(__dirname, 'assest/img')));
 
 app.get('/', (req, res) => {
-  res.send('Crud Application');
+  res.render('index');
 });
 
 app.listen(3000, () => {
