@@ -1,0 +1,20 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "Crud application with express and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aroolinks/crud_app.git"
+  },
+  "keywords": [
+    "crud",
+    "mongodb",
+    "express"
+  ],
+  "author": "Haroon Kiani",
+  "license": "ISC"
+}
