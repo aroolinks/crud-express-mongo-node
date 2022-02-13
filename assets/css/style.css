@@ -97,3 +97,28 @@ table {
   background-color: var(--dark);
   border: color #323832;
 }
+
+@media only screen and (max-width: 1024px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  tr {
+    border: 1px solid var(--border);
+  }
+  td {
+    border: none;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+}
